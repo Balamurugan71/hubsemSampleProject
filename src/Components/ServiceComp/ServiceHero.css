@@ -1,0 +1,38 @@
+.service_Hero_bg {
+    position: relative;
+    height: 400px;
+    background-image: url(../../assets/Services-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service_Hero_Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffbf;
+}
+
+.service_Overlay_text {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 1px;
+}
+
+@media (max-width:1025px) {
+    .service_Hero_bg {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width:767px) {
+    .service_Hero_bg {
+        height: 300px;
+    }
+}

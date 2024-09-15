@@ -1,0 +1,27 @@
+.hoverIcon,
+.hoverIcon1 {
+    padding: 0 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.hoverIcon:hover,
+.hoverIcon1:hover {
+    transform: translateY(-7px);
+}
+
+.hoverIcon1:hover {
+    color: #243D44;
+}
+
+.infoLink:hover {
+    color: #FE873D;
+}
+
+.infoLink1:hover {
+    color: #68B852;
+}
+
+h5 {
+    font-weight: 700 !important;
+}

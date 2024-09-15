@@ -1,0 +1,16 @@
+.homeServiceButton {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media (max-width:425px) {
+    .homeServiceButton {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+}

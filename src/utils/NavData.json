@@ -1,0 +1,68 @@
+[
+    {
+        "title": "HOME",
+        "path": "/"
+    },
+    {
+        "title": "ABOUT US",
+        "path": "/aboutus"
+    },
+    {
+        "title": "SERVICES",
+        "path": "/services",
+        "children": [
+            {
+                "name": "WEB DESIGN & DEVELOPMENT",
+                "subNav": [
+                    {
+                        "title": "Responsive Website Design / Development",
+                        "path": "/responsivewebsitedesign"
+                    },
+                    {
+                        "title": "Ecommerce solutions",
+                        "path": "/ecommercesolutions"
+                    }
+                ]
+            },
+            {
+                "name": "DIGITAL MARKETING",
+                "subNav": [
+                    {
+                        "title": "Search Engine Optimization (SEO)",
+                        "path": "/seo"
+                    },
+                    {
+                        "title": "Social Media Marketing (SMM)",
+                        "path": "/smm"
+                    }
+                ]
+            },
+            {
+                "name": "ADVANCED",
+                "subNav": [
+                    {
+                        "title": "Business Intelligence Services",
+                        "path": "/businessinterlligence"
+                    }
+                ]
+            },
+            {
+                "name": "CUSTOM SOFTWARE DEVELOPMENT",
+                "subNav": [
+                    {
+                        "title": "Desktop / Web / Mobile Applications",
+                        "path": "/desktopwebmobile"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "INTERNSHIP",
+        "path": "/internship"
+    },
+    {
+        "title": "CONTACT US",
+        "path": "/contactus"
+    }
+]

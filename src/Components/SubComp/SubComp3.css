@@ -1,0 +1,96 @@
+.SubComp3_Container {
+    padding: 80px;
+    font-family: "Poppins", sans-serif;
+}
+
+.SubComp3_Holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SubComp3_Section1,
+.SubComp3_Section2 {
+    width: 50%;
+    padding: 10px;
+}
+
+.SubComp3_Section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.SubComp3_Section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.SubComp3_image {
+    width: 468px;
+    height: 300px;
+}
+
+.Section2_Comp1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #243D44;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.Section2_Comp2>li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.Section2_Comp2>li:first-child {
+    margin-top: 0;
+}
+
+.Section2_Comp2>li:last-child {
+    border: none;
+}
+
+.Section2_Comp2_icon {
+    padding-top: 6px;
+    font-size: 16px;
+    color: #FE873D;
+}
+
+.Section2_Comp2_Para {
+    font-size: 15px;
+    padding-left: 10px !important;
+    line-height: 2;
+}
+
+@media (max-width:1024px) {
+    .SubComp3_Container {
+        padding: 40px;
+    }
+
+    .SubComp3_Holder {
+        flex-direction: column;
+    }
+
+    .SubComp3_Section1,
+    .SubComp3_Section2 {
+        width: 100%;
+    }
+}
+
+@media (max-width:425px) {
+    .SubComp3_Container {
+        padding: 50px 20px;
+    }
+
+    .SubComp3_image {
+        width: 365px;
+        height: 300px;
+    }
+}

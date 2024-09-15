@@ -1,0 +1,66 @@
+.SubComp2_Container {
+    padding: 80px;
+    font-family: "Poppins", sans-serif;
+    background-color: #f5f5f5;
+}
+
+.SubComp2_Holder {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.SubComp2_Header {
+    /* margin-bottom: 1rem; */
+    font-size: 36px;
+    color: #243D44;
+    font-weight: 600;
+}
+
+.SubComp2_Head {
+    margin-bottom: 1rem;
+    font-size: 17px;
+    color: #243D44;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.SubComp2_Para {
+    margin-bottom: 1rem;
+    font-size: 15px !important;
+    color: #000000;
+    font-weight: 400 !important;
+    line-height: 2 !important;
+}
+
+.TimelineImage {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+}
+
+@media (max-width:1024px) {
+    .SubComp2_Container {
+        padding: 40px;
+    }
+
+    .TimelineImage {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width:425px) {
+    .SubComp2_Container {
+        padding: 50px 20px;
+    }
+
+    .SubComp2_Header {
+        font-size: 26px;
+    }
+
+}

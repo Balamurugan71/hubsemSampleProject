@@ -1,0 +1,13 @@
+.profile_Container {
+    padding: 70px 30px;
+}
+
+.profile_Holder {
+    padding: 10px;
+}
+
+@media (max-width:1025px) {
+    .profile_Container {
+        padding: 70px 0px;
+    }
+}

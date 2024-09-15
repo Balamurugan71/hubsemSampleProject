@@ -1,0 +1,91 @@
+.Comp4_container {
+    padding: 70px 0;
+}
+
+.Comp4_Holder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: baseline;
+}
+
+.Comp4_section1 {
+    width: 50%;
+}
+
+.Comp4_section2 {
+    padding-top: 60px;
+}
+
+.Comp4_section2_container {
+    background-color: #68B852;
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section2_Header {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.section2_Header2 {
+    color: #243D44;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 44px;
+}
+
+.section2_Para {
+    color: #fff;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 2;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+.Comp4_icon {
+    font-size: 15px;
+    color: #243D44;
+    margin-top: 9px;
+}
+
+
+@media (max-width:1024px) {
+    .Comp4_Holder {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Comp4_section1 {
+        width: 900px;
+        height: 900px;
+    }
+}
+
+@media (max-width:769px) {
+
+    .Comp4_section1 {
+        width: 100%;
+    }
+}
+
+@media (max-width:425px) {
+    .Comp4_section2 {
+        padding-top: 70px;
+    }
+
+    .Comp4_section2_container {
+        padding: 60px 20px 50px;
+    }
+}

@@ -1,0 +1,43 @@
+.Comp5_Container {
+    padding: 0 20px 50px 20px;
+}
+
+.Comp5_Holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Comp5_Box {
+    padding: 10px;
+}
+
+.Comp5_Content {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #b1b1b1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Comp5_Content:hover {
+    border: none;
+    box-shadow: 2px 2px 3px 3px #86868680;
+}
+
+.Comp5_Number {
+    color: #68B852;
+    font-size: 69px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.Comp5_Para {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}

@@ -1,0 +1,31 @@
+.infoImage {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.textHeadSize {
+    font-size: 19px;
+}
+
+.textParaSize {
+    font-size: 16px;
+}
+
+.infoCard {
+    transition: all 0.3s ease-in-out;
+}
+
+.infoCard:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width:768px) {
+    .textHeadSize {
+        font-size: 17px;
+    }
+
+    .textParaSize {
+        font-size: 15px;
+    }
+}

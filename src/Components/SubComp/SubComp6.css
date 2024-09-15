@@ -1,0 +1,138 @@
+.SubComp6_Container {
+    padding: 100px;
+}
+
+.SubComp6_Holder {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SubComp6_Heading {
+    color: #243D44;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.SubComp6_Section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.SubComp6_Card {
+    width: 100%;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.SubComp6_Card:hover {
+    transform: translateY(-10px);
+}
+
+.Card_Section {
+    background-color: #fbfbfb;
+    padding: 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card_Image {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.Card_Content {
+    text-align: center;
+}
+
+.Card_Head {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: "Poppins", Sans-serif;
+    color: #243D44;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+
+.Card_para {
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+@media (max-width:1024px) {
+    .SubComp6_Container {
+        padding: 40px;
+    }
+
+    .SubComp6_Card {
+        padding: 5px;
+    }
+
+    .Card_Image {
+        width: 134px;
+        height: 134px;
+        margin-bottom: 10px;
+    }
+
+    .SubComp6_Heading {
+        font-size: 34px;
+    }
+
+    .Card_Head {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:768px) {
+    .Card_Image {
+        width: 92px;
+        height: 92px;
+        margin-bottom: 10px;
+    }
+
+    .Card_para {
+        line-height: 1.8;
+    }
+}
+
+@media (max-width:425px) {
+    .SubComp6_Container {
+        padding: 50px 20px;
+    }
+
+    .SubComp6_Section2 {
+        flex-direction: column;
+    }
+
+    .SubComp6_Card {
+        padding: 10px;
+    }
+
+    .Card_Image {
+        width: 126px;
+        height: 126px;
+        margin-bottom: 10px;
+    }
+
+    .SubComp6_Heading {
+        font-size: 26px;
+    }
+
+    .Card_Head {
+        font-size: 15px;
+    }
+}

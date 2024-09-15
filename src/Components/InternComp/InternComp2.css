@@ -1,0 +1,81 @@
+.InternFormContainer {
+    background-color: #fafafa;
+    padding: 70px 0;
+}
+
+.InternFormHolder {
+    padding: 10px;
+}
+
+.InternParaContainer {
+    margin-bottom: 2rem;
+}
+
+.InternPara {
+    text-align: center;
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 2;
+}
+
+.formInternContainer {
+    width: 100%;
+    padding: 0 5rem;
+}
+
+.internInputForm {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 2px 5px 0 #6d6d6d38;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.internSelectForm {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 2px 5px 0 #6d6d6d38;
+    background-color: #fff;
+    padding: 0 30px;
+    color: #777777;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.InternLabel {
+    font-size: 15px;
+    color: #595959;
+}
+
+.internInputForm::placeholder {
+    color: #777777;
+}
+
+.internInputForm[type='text'],
+.internInputForm[type='email'],
+.internInputForm[type='number'] {
+    padding: 0 30px;
+    background-color: #fff;
+}
+
+.internSelectForm>option {
+    width: 100%;
+    background-color: #fff;
+    color: #777777;
+    padding: 0 30px;
+}
+
+@media (max-width:1024px) {
+    .formInternContainer {
+        padding: 0 1rem;
+    }
+}

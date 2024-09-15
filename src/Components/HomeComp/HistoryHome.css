@@ -1,0 +1,39 @@
+.historyImg {
+    width: 100%;
+}
+
+.borderHstry {
+    border: 1px solid #c2c2c2;
+    padding: 10px;
+}
+
+.borderHstry:hover {
+    border: 1px solid #68B852;
+}
+
+.lineHeight {
+    line-height: 1.7;
+    font-weight: 400;
+    color: #000;
+}
+
+@media (max-width:2560px) {
+    .historyImg {
+        width: 100%;
+        height: 640px;
+    }
+}
+
+@media (max-width:1440px) {
+    .historyImg {
+        width: 50%;
+        height: 640px;
+    }
+}
+
+@media (max-width:1024px) {
+    .historyImg {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,97 @@
+.Bg-image {
+    position: relative;
+    height: 470px;
+    background-image: url(../../assets/footer-bgimg.jpg);
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.particlesBg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.particles-bg-canvas-self {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute !important;
+    opacity: 0.4 !important;
+    z-index: 0 !important;
+    left: 0px !important;
+}
+
+.footerOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footerLogo {
+    height: 130px;
+    width: 130px;
+}
+
+.row {
+    margin-right: 0 !important;
+}
+
+.footerNav {
+    color: #fff !important;
+}
+
+.footerNav:hover {
+    color: #68B852 !important;
+}
+
+@media (max-width:1200px) {
+    .Bg-image {
+        height: 500px;
+    }
+}
+
+@media (max-width:1013px) {
+    .Bg-image {
+        height: 530px;
+    }
+}
+
+@media (max-width:952px) {
+    .Bg-image {
+        height: 560px;
+    }
+}
+
+@media (max-width:870px) {
+    .Bg-image {
+        height: 580px;
+    }
+}
+
+@media (max-width:768px) {
+    .Bg-image {
+        height: 600px;
+    }
+}
+
+@media (max-width:576px) {
+    .Bg-image {
+        height: 960px;
+    }
+}
+
+@media (max-width:375px) {
+    .Bg-image {
+        height: 1020px;
+    }
+}
+
+@media (max-width:340px) {
+    .Bg-image {
+        height: 1100px;
+    }
+}
