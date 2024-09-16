@@ -15,7 +15,7 @@
 }
 
 .infoLink:hover {
-    color: #FE873D;
+    color: #FE873D !important;
 }
 
 .infoLink1:hover {
